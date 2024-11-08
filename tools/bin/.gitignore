@@ -1,0 +1,7 @@
+golangci-lint
+golangci-lint.exe
+gomod2rpmdeps
+makefat
+mockery
+goimports
+goimports.exe

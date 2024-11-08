@@ -1,5 +1,5 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-crc-org-crc (2.34.0+ds1-1) unstable; urgency=medium
 
-  * Initial release
+  * Initial release (Closes: #1067503)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 23 Mar 2024 11:49:49 -0400
