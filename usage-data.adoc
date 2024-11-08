@@ -1,0 +1,29 @@
+= Usage data
+
+The following table describes the opt-in usage data collected by CRC.
+
+.Data points
+|===
+|Occasion          | Data                         | Type 
+
+|*Install*         | Host OS                      |
+|                  | Host OS version              |
+|                  | CRC version                  |
+|                  | Installed using installers   | true/false
+
+|*Setup*           | Error message                |
+|                  | Error type                   |
+|                  | First time run               | true/false
+|*Cluster startup* | Error message                |
+|                  | Proxy                        | true/false
+|                  | Network mode                 | vsock/default
+|                  | Cluster monitoring           | true/false
+|                  | Experimental features        | true/false
+|                  | Running from command line    | true/false
+|                  | Duration                     |
+|                  | Remotely connected with SSH  | true/false
+
+|*Config*          | Num of CPUs                  | 
+|                  | Memory size                  |
+|                  | Disk size                    |
+|===

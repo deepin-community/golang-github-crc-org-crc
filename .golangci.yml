@@ -1,0 +1,23 @@
+run:
+  build-tags:
+    - build
+    - containers_image_openpgp
+  timeout: 10m
+
+linters:
+  enable:
+    - errcheck
+    - goimports
+    - gofmt
+    - gosec
+    - gocritic
+    - unused
+    - misspell
+    - revive
+
+issues:
+  exclude-rules:
+    - path: 'test/*'
+      text: 'dot-imports: should not use dot imports'
+      linters:
+        - revive
